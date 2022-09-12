@@ -11,7 +11,6 @@ const app = express()
 
 // App Config
 app.use(bodyParser.urlencoded({ extended: true }))
-app.use(expressSanitizer())
 app.use('/', express.static(__dirname))
 app.set('view engine', 'ejs')
 
