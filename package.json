@@ -1,4 +1,14 @@
 {
+  "name": "seb-redirect-kth",
+  "version": "1.0.0",
+  "description": "SEB Redirect",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "author": "Chris (sony2k)",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.0",
     "ejs": "^3.1.8",
