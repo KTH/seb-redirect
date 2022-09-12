@@ -8,7 +8,7 @@ router.get('/', function(req, res){
 
 //redirect route
 router.get('/redirect', function(req, res){
-  res.render('redirect', { urlStem: 'https://canvas.kth.se/courses/'+req.query.cid });
+  res.render('redirect', { redirectURL: 'https://canvas.kth.se/courses/'+req.query.cid });
 });
 
 module.exports = router
