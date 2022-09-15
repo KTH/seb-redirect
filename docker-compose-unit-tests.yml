@@ -6,6 +6,5 @@ services:
     image: $LOCAL_IMAGE_ID
     tty: false
     command: >
-      sh -c "apk add openssl git python make &&
-             npm ci && \
+      sh -c "npm ci && \
              npm test"
