@@ -1,6 +1,6 @@
-import { proxyPath } from './utils';
 const express           = require('express')
 const bodyParser        = require('body-parser')
+const { proxyPath } = require('./routes/utils');
 const ejs               = require('ejs')
 
 // Route links

@@ -1,4 +1,5 @@
-import { proxyPath } from './utils';
+const { proxyPath } = require('./utils');
+
 const express = require('express')
 const router = express.Router({ mergeParams: true })
 
