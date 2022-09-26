@@ -22,7 +22,7 @@ app.use(proxyPath(''), express.static(__dirname))
 app.set('view engine', 'ejs')
 
 // Use Routes
-app.use(proxyPath(''), redirectRoutes)
+app.use(redirectRoutes)
 app.use(rootRoutes)
 
 // server is listening.....
