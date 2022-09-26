@@ -7,11 +7,6 @@ router.get(proxyPath(''), function (req, res) {
   res.render('index')
 })
 
-//universal canvas route
-router.get(proxyPath('redirect'), function (req, res) {
-  res.render('redirect')
-})
-
 // universal404
 router.get(proxyPath('404'), function (req, res) {
   res.render('fourOhFour')
